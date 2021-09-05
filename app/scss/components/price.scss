@@ -127,6 +127,9 @@
       &:hover {
         opacity: 0.9;
       }
+      &:focus-within {
+        outline: 3px dashed red;
+      }
       @include breakpoint-down(small) {
         font-size: 0.9rem;
         font-weight: 600;
